@@ -1,16 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavBar from './components/NavBar';
-import {button} from '@mui/material'
+import ItemListContainer from './components/ItemListContainer';
+import {button} from '@mui/material/Button'
+import { dividerClasses, listItemIconClasses } from '@mui/material';
+import logo from './logo.svg';
+
+
 function App() {
   return (
-
+     
+    
+    <NavBar/>
     
 
     
-     <NavBar />
-      
+
     
+
   );
 }
 
